@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(216, 173, 187);
+    font-family: arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin:40px auto;
+    padding:20px;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px rgba( pink);
+}
+
+h1, h2 {
+    color:blue;
+}
+
+.bio {
+    margin-bottom: 20px;
+}
+
+.bio h2 {
+    margin-top: 0;
+}
+
+.profile picture {
+    border-radius: 50%;
+    margin:20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+.skills {
+    margin-bottom: 10px;
+}
+
+.download-cv {
+    background-color: aquamarine;
+    color:aqua;
+    padding:10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-cv:hover {
+    background-color: palevioletred;
+}
